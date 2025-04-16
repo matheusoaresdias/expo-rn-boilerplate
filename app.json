@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "rn-boilerplate",
+    "slug": "rn-boilerplate",
+    "scheme": "rn-boilerplate",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "IMAGE_URI": "http://localhost:3000"
+    }
+  }
+}
